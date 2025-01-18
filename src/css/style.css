@@ -1,53 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url(reset.css);
 
 body {
-    padding: 0;
-    margin: 0;
+    background-color: rgba(44, 44, 44, 1);
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-html, body, #map {
-    height: 100%;
+#map {
     width: 100%;
 }
 
-.map-legend {
-    z-index: 9999; /* Ensure it is above all other content */
-    position: fixed;
-    bottom: 65px;
-    left: 20px;
-
-    background-color: rgb(255, 255, 255, 0.875);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
-    border: 1px solid rgba(0, 0, 0, 0.475);
-
-    padding:20px 25px;
-    max-width: 250px;
+.main-wrapper {
+    display: flex;
 }
 
-.map-legend h3 {
-    margin-bottom: 20px;
+.side-navbar {
+    min-width: 240px;
+    min-height: 100vh;
+    background-color: rgba(44, 44, 44, 1);
+    border-right: 1px solid rgba(255, 255, 255, 0.55);
 
-    font-family: 'Noto Serif', serif, monospace;
-    font-weight: 700;
-    text-align: center;
-    font-size: 1.175rem;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
-.map-legend ul {
-    list-style-type: none;
+#header {
+    padding: 20px 20px 25px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.map-legend li {
-    font-family: 'Noto Sans', sans-serif, monospace;
-    margin-bottom: 14px;
-    font-size: 0.775rem;
+#header a img {
+    width: 6em;
 }
 
-.legend-item {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    border-radius: 50%;
+.nav-panel {
+    letter-spacing: -2%;
+    padding: 20px 25px;
+    color: rgba(255,255,255,1);
+}
+
+.nav-panel a {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+#nav-panel-ul #ul-header {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#nav-inner-ul {
+    padding: 10px;
+}
+
+#nav-list-header a{
+    font-weight: 400;
+    font-size: 12px;
+
+    color: rgba(255,255,255,0.55);
+
+    transition: color .5s;
+}
+#nav-list-header a:hover {
+    color: rgba(255,255,255,1);
+}
+
+#nav-inner-ul-last {
+    padding: 10px;
+}
+
+#nav-list-li a {
+    color: rgba(255,255,255,1); 
+    transition: color .5s;
+}
+
+#nav-list-li a:hover {
+    color: rgba(124, 196, 248,1);
+}
+
+#nav-list-li {
+    padding: 4px 10px;
+    margin: 4px 0;
+    font-size: 11px;
+    background-color: rgba(255,255,255,0);
+    
+    border-radius: 4px;
+
+    transition: background-color .5s;
+}
+
+#nav-list-li:hover {
+    background-color: rgba(83, 99, 131,1);
 }
