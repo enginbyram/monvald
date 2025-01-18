@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(reset.css);
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #map {
+    height: 100%;
+    width: 100%;
+}
+
+.map-legend {
+    z-index: 9999; /* Ensure it is above all other content */
+    position: fixed;
+    bottom: 65px;
+    left: 20px;
+
+    background-color: rgb(255, 255, 255, 0.875);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
+    border: 1px solid rgba(0, 0, 0, 0.475);
+
+    padding:20px 25px;
+    max-width: 250px;
+}
+
+.map-legend h3 {
+    margin-bottom: 20px;
+
+    font-family: 'Noto Serif', serif, monospace;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.175rem;
+}
+
+.map-legend ul {
+    list-style-type: none;
+}
+
+.map-legend li {
+    font-family: 'Noto Sans', sans-serif, monospace;
+    margin-bottom: 14px;
+    font-size: 0.775rem;
+}
+
+.legend-item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
