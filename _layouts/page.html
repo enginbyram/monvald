@@ -6,6 +6,12 @@
         <div class="focus-area">
             {% include topbar.html %}
             <article class="article-body">
+              <div id="page-info">
+                {% include back_link.html %}
+                <div id="page-date-info">
+                  {{page.date | date: "%d-%m-%Y"}}
+              </div>
+              </div>
               <div id="banner-wrapper">
                 <img src="{{page.banner}}" alt="">
               </div>
@@ -13,7 +19,7 @@
                   <h1 id="page-title">{{page.title}}</h1>
                   <div id="article-t-main-text">
                     <div id="table-of-contents">
-                      <h5>İçindekiler</h5>
+                      <h5>{{page.title}}</h5>
                       {{ content | toc_only }}
                     </div>
                     {{content | inject_anchors }}

@@ -6,7 +6,25 @@
         <div class="focus-area">
             {% include topbar.html %}
             <article class="article-body">
-                {{content}}
+              <div id="category-text">
+                <div id="page-info">
+                  {% include back_link.html %}
+                </div>
+                <div class="inner-cat-body">
+                  <h4 id="cat-texts-main-h">{{page.title}}</h4>
+                  <div id="cat-texts">
+                    <p>{{content}}</p>
+                  </div>
+                </div>
+                <h2>{{ page.title }}</h2>
+                <ul id="cat-list">
+                  {% for page in site[page.collection] %}
+                    {% if page.name != "index.md" %}
+                     <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </div>
             </article>
         </div>
     </main>

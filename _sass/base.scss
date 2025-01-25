@@ -3,12 +3,13 @@
 @use 'article.scss' as *;
 
 body {
-    background-color: $bglcolor1;
+    background-color: $lightmode-bg;
     font-family: monospace;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-smooth: never;
+
 }
 
 b {
@@ -16,7 +17,6 @@ b {
 }
 
 .main-wrapper {
-    background-color: $lightmode-bg;
     display: flex;
 }
 
@@ -25,13 +25,13 @@ b {
 }
 
 .topbar-wrapper {
+    background-color: $lightmode-bg;
+
+
     position: sticky;
     top: 0;
     z-index: 999;
 
-    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.15);
-
-    background-color: $bglcolor2;
     border-bottom: 1px solid $subtleborder;
     display: flex;
     justify-content: space-between;
@@ -57,7 +57,7 @@ b {
         margin: 0 10px;
 
         a {
-            color: $fglcolor3;
+            color: $lightmode-black;
             text-decoration: none;
 
             text-wrap: nowrap;
@@ -71,22 +71,9 @@ b {
 
 #r-tools-wrapper {
     display: flex;
+    align-items: baseline;
 
     margin: 0 2.175em;
-}
-
-#newpage-button {
-    padding: 4px 7px 4px 5px;
-
-    margin-left: 4px;
-    
-    border: 1px solid $fglcolor1;
-    border-radius: 6px;
-
-}
-
-#newpage-b-ico i {
-    color: $fglcolor2;
 }
 
 #map-button {
@@ -94,27 +81,21 @@ b {
     margin-right: 4px;
     
     #map-ico {
-        color: $fglcolor2;
+        color: $lightmode-black;
     }
 }
 
-#search-button {
+#dark-mode-button {
     padding: 4px 7px 4px 5px;
-    margin-right: 20px;
+    margin-right: 4px;
     
-    #search-ico {
-        color: $fglcolor2;
+    #dark-mode-ico {
+        color: $lightmode-black;
     }
 }
 
 
 // MainWrapper Article Body Start
-
-.article-body {
-    margin: 0 150px;
-    width: auto;
-    user-select: none;
-}
 
 .showcase-wrapper {
     width: 100%;
@@ -148,7 +129,7 @@ b {
     line-height: 1.5;
     text-decoration: none;
 
-    color: $bglcolor3;
+    color: $lightmode-white;
     
     margin: 16px 30px 16px 308px;
     padding: 10px;
@@ -162,7 +143,7 @@ b {
 }
 
 #title-board-t-desc {
-    color: $bglcolor1;
+    color: $lightmode-white;
     
     text-align: left;
     padding: 20px 64px 64px 64px;
@@ -199,7 +180,7 @@ b {
     font-style: italic;
     text-align: center;
     font-size: 24px;
-    color: $fglcolor2;
+    color: $lightmode-black;
 
     padding: 30px 0;
 }
@@ -213,7 +194,7 @@ b {
 
 .showcase-card {
     text-decoration: none !important;
-    color: $fglcolor2 !important;
+    color: $lightmode-black !important;
 }
 
 #showcase-card-img {
@@ -264,7 +245,7 @@ b {
 }
 
 #showcase-card-date {
-    color: $fglcolor3;
+    color: $lightmode-black;
 }
 
 #showcase-card-category {
@@ -276,3 +257,8 @@ b {
     border: 1px solid $pillgreen2;
 }
 
+@media screen and (max-width: 1200px) {
+    #table-of-contents {
+      display: none;
+    }
+  }

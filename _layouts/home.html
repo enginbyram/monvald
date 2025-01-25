@@ -6,19 +6,8 @@
         <div class="focus-area">
             {% include topbar.html %}
             <article class="article-body">
-              {{content}}
-            <ul>
-              {% for page in site.pages %}
-                {% if forloop.index > 1 %}
-                  {% if page.categories == "coğrafya" %}
-                    <li>
-                      <a href="{{ page.url }}">{{ page.title }}</a>
-                    </li>
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
-            </ul>
-              {% include mainpage-showcase.html %}
+              <div id="category-text">
+              </div>
             </article>
         </div>
     </main>

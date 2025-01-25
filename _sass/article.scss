@@ -1,100 +1,93 @@
 @use 'styles.scss' as *;
 
-#article-text {
-    color: $fglcolor2;
+#article-text, #category-text {
+    user-select: text;
 
-    max-width: 760px;
+    color: $lightmode-black;
+    max-width: 640px;
     margin: auto;
     padding: 2rem;
-
-    line-height: 1.55;
-    font-size: 16.2px;
-    font-style: normal;
-    font-family: monospace;
-    letter-spacing: -0.006em;
+    line-height: 1.2em;
+    font-family: serif;
 
     p {
         margin: 10px 0;
+        text-align: justify;
+        font-family: serif;
+        text-indent: 25px;
     }
+
 }
 
-#article-text {
+#page-title {
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid $subtleborder;
+}
+
+h2 {
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    margin: 72px 0 16px 0;
+    
+    // padding: 8px 0;
+    // border-bottom: 1px solid $subtleborder;
+}
+h3 {
+    font-size: 110%;
+    font-style: italic;
+    text-align: center;
+    margin-top: 48px;
+
+}
+
+h4 {
+    font-size: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 6px;   
+}
+
+h4::after {
+    content: ' :';
+}
+
+h5 {
+    font-variant: small-caps;
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 6px; 
+}
+h6 {
+    font-variant: small-caps;
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+
+#article-text, #category-text {
+
+    strong {
+        font-weight: bold;
+    }
 
     a {
         text-decoration: none;
         color: #00e;
     }
-    a:visited { color: #551a8b; }
+    a:visited { color: #00e; }
     a:active { color: #ff0000; }
     a:hover {
         text-decoration: underline;
         color: #06e;
-    }
-
-    #page-title {
-    
-        font-family: $primary-font;
-        font-size: $ahm;
-        line-height: 1.5;
-        letter-spacing: -0.52px;
-        font-variation-settings: "opsz" 32;
-        font-weight: bold;
-        
-        padding: 16px 0;
-        margin-bottom: 16px;
-    
-        border-bottom: 1px solid $subtleborder;
-    }
-    
-    h2 {
-        font-size: $ah2;
-        line-height: 1.5;
-        letter-spacing: -0.52px;
-        font-variation-settings: "opsz" 32;
-        font-weight: bold;
-        margin-top: 6px;
-    }
-    h3 {
-        font-size: $ah3;
-        line-height: 1.5;
-        letter-spacing: -0.52px;
-        font-variation-settings: "opsz" 32;
-        font-weight: bold;
-        margin-top: 6px;
-    
-        border-bottom: 1px solid $subtleborder;
-    }
-    h4 {
-        font-size: $ah4;
-        font-variation-settings: "opsz" 14;
-        font-weight: bold;
-        line-height: 1.5;
-        letter-spacing: -0.52px;
-        margin-top: 6px;
-    
-    }
-    h5 {
-        font-size: $ah5;
-        line-height: 1.5;
-        letter-spacing: -0.52px;
-        font-variation-settings: "opsz" 32;
-        font-weight: bold;
-        color: $fglcolor2;
-
-        margin-top: 6px;
-    
-    
-    }
-    h6 {
-        font-size: $ah6;
-        font-variation-settings: "opsz" 14;
-        font-weight: 340;
-        line-height: 1.5;
-        letter-spacing: -0.52px;
-        font-weight: bold;
-
-        text-transform: lowercase;
-        margin-top: 6px;
     }
 
     ul {
@@ -103,7 +96,7 @@
         list-style: unset;
 
         li {
-            margin: 24px 0;
+            margin: 12px 0;
         }
     }
 
@@ -113,7 +106,7 @@
         list-style: decimal;
 
         li {
-            margin: 24px 0;
+            margin: 12px 0;
         }
 
         ol {
@@ -128,7 +121,7 @@
         font-family: monospace;
         font-style: italic;
         
-        border: thin solid $fglcolor1;
+        border: thin solid $lightmode-black;
         
         padding: 1rem;
         margin: 2rem;
@@ -212,7 +205,7 @@
       .rimg {
         border: 1px solid $subtleborder;
         background-color: $lightmode-bg;
-        color: $fglcolor1;
+        color: $lightmode-black;
         margin: 0 0 2em 2.5em;
         padding: 0.2em;
         float: right;
@@ -237,18 +230,18 @@
 }
 
 #table-of-contents {
-    background-color: $bglcolor3; 
-    
-    font-family: $primary-font;
-    font-size: 0.875rem;
+    background-color: $lightmode-bg; 
+    border: 1px solid $subtleborder;
 
-    border: 1px solid rgba(0, 0, 0, 0.25);
     display: table;
     padding: 16px;
 
     position: fixed;
     top: 100px;
     left: 30px;
+
+    font-family: sans-serif;
+    font-size: 90%;
 
     #toc {
         margin-top: 14px;
@@ -264,13 +257,60 @@
         padding-inline-start: 12px;
         list-style: none;
 
-        a {color:$fglcolor1;}
-        a:visited {color:$fglcolor1;}
-        a: {color:$fglcolor1;}
+        a {color:$lightmode-black;}
+        a:visited {color:$lightmode-black;}
+        a: {color:$lightmode-black;}
 
         li {
             margin: 6px 0;
         }
 
     }
+}
+
+#cat-texts {
+    border: 1px solid black;
+    padding: 10px;
+    p {
+        text-align: center;
+        font-variant: small-caps;
+        font-size:100%;
+        text-indent: 0;
+    }
+}
+
+.inner-cat-body {
+    margin: 64px 0;
+}
+
+#cat-texts-main-h {
+    margin-bottom: 32px;
+}
+
+#cat-texts-main-h::first-letter {
+    text-transform: uppercase;
+}
+
+#cat-list {
+    font-size: 110%;
+    font-family: monospace;
+}
+
+#site-title-home {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 32px 0;
+}
+
+#page-info {
+    max-width: 640px;
+    margin: 72px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+#page-date-info {
+    color: $subtleborder;
 }

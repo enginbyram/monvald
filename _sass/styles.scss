@@ -6,31 +6,21 @@ $primary-font: monospace;
 $secondary-font: "Averia Serif Libre";
 $serif-font: "Libre Baskerville";
 
-$bglcolor1: rgba(255, 254, 253,1);
-$bglcolor2: rgba(235, 233, 227,1);
-$bglcolor3: rgba(236, 234, 231,1);
+$lightmode-bg: rgb(242, 242, 242);
+$lightmode-black: rgba(0, 0, 0, .9);
+$lightmode-white: rgba(255, 254, 253,1);
 
-$lightmode-bg: rgb(244, 242, 240);
-
-$fglcolor1: rgba(0, 0, 0, 1);
-$fglcolor2: rgba(0, 0, 0, .9);
-$fglcolor3: rgba(0, 0, 0, .8);
-$fglcolor4: rgba(0, 0, 0, .7);
-$colorbg-noise-black: rgba(0, 0, 0, .92);
+$darkmode-bg: rgba(0,0,0,1);
+$darkmode-light: rgba(255,255,255,0.9);
+$darkmode-black: rgba(0,0,0,1);
 
 $subtleborder: rgba(0, 0, 0, .25);
+
 
 $pillgreen1: #effcf1;
 $pillgreen2: #0e6e34;
 
 $topbar-link-size: .9rem;
-
-$ahm: 32px;
-$ah2: 28px;
-$ah3: 20px;
-$ah4: 18px;
-$ah5: 16px;
-$ah6: 16px;
 
 @font-face {
     font-family: "Averia Serif Libre";
@@ -68,3 +58,5 @@ $ah6: 16px;
     font-weight: 700;
     font-style: italic;
 }
+
+
