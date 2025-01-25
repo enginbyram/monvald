@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "tr-TR" }}">
+  {% include header.html %}
+  <body>
+    <main class="main-wrapper">
+        <div class="focus-area">
+            {% include topbar.html %}
+            <article class="article-body">
+              {{content}}
+            <ul>
+              {% for page in site.pages %}
+                {% if forloop.index > 1 %}
+                  {% if page.categories == "coğrafya" %}
+                    <li>
+                      <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </ul>
+              {% include mainpage-showcase.html %}
+            </article>
+        </div>
+    </main>
+  </body>
+</html>
