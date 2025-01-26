@@ -1,0 +1,17 @@
+{
+  "promptDelete": true,
+  "trashOption": "none",
+  "alwaysUpdateLinks": false,
+  "newFileLocation": "current",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "assets/img",
+  "userIgnoreFilters": [
+    "assets/",
+    "_data/",
+    "_includes/",
+    "_layouts/",
+    "_site/"
+  ],
+  "livePreview": false,
+  "defaultViewMode": "source"
+}

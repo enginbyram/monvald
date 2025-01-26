@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "9aaa94c77133ec5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b35e62cb7cdb0f57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a77ecd6c58d240d5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7e9ee549020b40b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3596ae4ad98e945c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cee37fee1da22da5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2dc0f2f70fd1f75c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7467252dc759f0f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "960410ba8428c621",
+    "type": "split",
+    "children": [
+      {
+        "id": "121ced71cf2c7ed6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec750db2be11f67f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_buyuler/büyü.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for büyü"
+            }
+          },
+          {
+            "id": "5a7ebd0f073144f9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_buyuler/büyü.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from büyü"
+            }
+          },
+          {
+            "id": "c13e4fe63f790af5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2d508b0cf4f36e63",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_buyuler/büyü.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of büyü"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a77ecd6c58d240d5",
+  "lastOpenFiles": [
+    "_organizasyonlar/index.md",
+    "_organizasyonlar",
+    "_nesneler/index.md",
+    "_nesneler",
+    "_kronoloji/tarihsel akış.md",
+    "_kronoloji/index.md",
+    "_kronoloji",
+    "_kozmoloji/index.md",
+    "_kozmoloji",
+    "_kavramlar-ve-terimler/index.md",
+    "_kavramlar-ve-terimler",
+    "_irklar/index.md",
+    "_irklar",
+    "_inanclar/index.md",
+    "_inanclar",
+    "_diller/index.md",
+    "_diller",
+    "_cografya/overview-post.md",
+    "_cografya/index.md",
+    "_cografya",
+    "templates_/PAGE_TEMPLATE.md",
+    "templates_/CATEGORY_TEMPLATE.md",
+    "templates_",
+    "_site/README.md",
+    "_sanat/index.md",
+    "_canlilar/index.md",
+    "_buyuler/index.md",
+    "_buyuler/büyü.md",
+    "_site/sanat/sanat-portal.md",
+    "_site/organizasyonlar/organizasyon-portal.md",
+    "_site/nesneler/nesneler-portal.md",
+    "_site/kronoloji/kronoloji-portal.md",
+    "_site/kozmoloji/kozmoloji-portal.md",
+    "_site/kavramlar-ve-terimler/kavramlar-ve-terimler-portal.md",
+    "_site/diller/diller-portal.md",
+    "_site/ırklar/ırklar-portal.md",
+    "_site/assets/img/logo_dark.png",
+    "_site/assets/img/araf_cizimi.png",
+    "_site/assets/img/boynuzlar.jpg",
+    "_site/assets/img/logo_small_dark.png"
+  ]
+}

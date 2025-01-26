@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+// For storing style modules
+
+$primary-font: monospace;
+$secondary-font: "Averia Serif Libre";
+$serif-font: "Libre Baskerville";
+
+$lightmode-bg: rgb(242, 242, 242);
+$lightmode-black: rgba(0, 0, 0, .9);
+$lightmode-white: rgba(255, 254, 253,1);
+
+$darkmode-bg: rgba(0,0,0,1);
+$darkmode-light: rgba(255,255,255,0.9);
+$darkmode-black: rgba(0,0,0,1);
+
+$subtleborder: rgba(0, 0, 0, .25);
+
+
+$pillgreen1: #effcf1;
+$pillgreen2: #0e6e34;
+
+$topbar-link-size: .9rem;
+
+@font-face {
+    font-family: "Averia Serif Libre";
+    src: url("/assets/fonts/AveriaSerifLibre-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Averia Serif Libre";
+    src: url("/assets/fonts/AveriaSerifLibre-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Averia Serif Libre";
+    src: url("/assets/fonts/AveriaSerifLibre-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Averia Serif Libre";
+    src: url("/assets/fonts/AveriaSerifLibre-Italic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Averia Serif Libre";
+    src: url("/assets/fonts/AveriaSerifLibre-LightItalic.ttf");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Averia Serif Libre";
+    src: url("/assets/fonts/AveriaSerifLibre-BoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+
+

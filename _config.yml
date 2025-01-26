@@ -1,0 +1,36 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "The Monvaldier"
+
+collections:
+  buyuler:
+    output: true
+  canlilar:
+    output: true
+  cografya:
+    output: true
+  diller:
+    output: true
+  inanclar:
+    output: true
+  irklar:
+    output: true
+  kavramlar-ve-terimler:
+    output: true
+  kozmoloji:
+    output: true
+  kronoloji:
+    output: true
+  nesneler:
+    output: true
+  organizasyonlar:
+    output: true
+  sanat:
+    output: true
+
+plugins:
+  - jekyll-toc
+
+theme_config:
+  back_home_text: "[geri dön]" # customize text for homepage link in post layout
+  date_format: "%d-%m-%Y" # customize how date is formatted
