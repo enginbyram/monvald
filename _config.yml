@@ -32,5 +32,5 @@ plugins:
   - jekyll-toc
 
 theme_config:
-  back_home_text: ".." # customize text for homepage link in post layout
+  back_home_text: "[geri dön]" # customize text for homepage link in post layout
   date_format: "%d-%m-%Y" # customize how date is formatted
