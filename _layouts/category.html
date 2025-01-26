@@ -20,7 +20,10 @@
                 <ul id="cat-list">
                   {% for page in site[page.collection] %}
                     {% if page.name != "index.md" %}
-                     <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                    <ul>
+                      <li><a href="{{ page.url }}"><span id="cat-page-title">{{page.title}}</span> : {{page.description}}</a></li>
+                    </ul>
+                     
                     {% endif %}
                   {% endfor %}
                 </ul>
@@ -28,5 +31,6 @@
             </article>
         </div>
     </main>
+    {% include footer.html %}
   </body>
 </html>

@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37419d8963f41fb1",
+            "id": "a77ecd6c58d240d5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_kronoloji/tarihsel akış.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "tarihsel akış"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_buyuler/büyü.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for büyü"
             }
           },
           {
@@ -107,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_buyuler/büyü.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from büyü"
             }
           },
           {
@@ -132,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "_buyuler/büyü.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of büyü"
             }
           }
         ]
@@ -154,47 +162,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37419d8963f41fb1",
+  "active": "a77ecd6c58d240d5",
   "lastOpenFiles": [
+    "templates_/PAGE_TEMPLATE.md",
+    "_kronoloji/tarihsel akış.md",
+    "_cografya/overview-post.md",
+    "_site/kronoloji/tarihsel akış.html",
+    "_site/kronoloji/tarihsel akis.html",
+    "_site/kronoloji/Untitled.html",
+    "_site/kronoloji/Untitled.md",
+    "_buyuler/büyü.md",
+    "_site/templates_/PAGE_TEMPLATE.html",
+    "_site/templates_/CATEGORY_TEMPLATE.html",
+    "_site/templates_/PAGE_TEMPLATE.md",
+    "_site/templates_/Untitled.md",
+    "templates_/CATEGORY_TEMPLATE.md",
+    "_diller/index.md",
+    "_kronoloji/index.md",
+    "_site/templates_/category_template.html",
+    "_site/templates_/category_template.md",
+    "_site/templates_",
+    "templates_",
+    "_cografya/index.md",
+    "README.md",
     "map.html",
     "Yeni klasör",
-    "_includes/date_info.html",
-    "_includes/back_link.html",
-    "_layouts/back_link.html",
-    "_site/assets/css/main.css.map",
-    "_site/sanat/index.html",
-    "_site/sanat",
     "_sanat/index.md",
-    "_site/organizasyonlar/index.html",
-    "_site/organizasyonlar",
     "_organizasyonlar/index.md",
-    "_site/nesneler/index.html",
     "_nesneler/index.md",
-    "_kronoloji/index.md",
     "_kozmoloji/index.md",
     "_kavramlar-ve-terimler/index.md",
     "_irklar/index.md",
     "_inanclar/index.md",
-    "_diller/index.md",
     "_data/index.md",
-    "_cografya/index.md",
     "_canlilar/index.md",
     "_diller/0-diller-portalı.md",
-    "_cografya/overview-post.md",
     "_buyuler/index.md",
-    "_buyuler/büyü.md",
     "_site/assets/img/logo_dark.png",
     "_site/assets/img/araf_cizimi.png",
     "_site/assets/img/boynuzlar.jpg",
     "_site/assets/img/logo_small_dark.png",
-    "_site/README.md",
-    "_site/index.md",
-    "index.md",
-    "pages/_diller/0-diller-portalı.md",
-    "pages/_cografya/overview-post.md",
-    "pages/_cografya/overview-post copy.md",
-    "pages/_buyuler/index.md",
-    "pages/_buyuler/büyü.md",
-    "_cografya/overview-post copy.md"
+    "_site/README.md"
   ]
 }

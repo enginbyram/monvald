@@ -6,10 +6,12 @@
   "useMarkdownLinks": true,
   "attachmentFolderPath": "assets/img",
   "userIgnoreFilters": [
-    "_drafts/",
+    "assets/",
     "_data/",
     "_includes/",
     "_layouts/",
-    "_sass/"
-  ]
+    "_site/"
+  ],
+  "livePreview": false,
+  "defaultViewMode": "source"
 }

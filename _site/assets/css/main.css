@@ -151,6 +151,10 @@ h6 {
   margin-top: 6px;
 }
 
+#cat-page-title {
+  text-transform: uppercase;
+}
+
 #article-text strong, #category-text strong {
   font-weight: bold;
 }
@@ -189,6 +193,9 @@ h6 {
   margin: 16px 0;
   padding-inline-start: 40px;
   list-style: lower-roman;
+}
+#article-text em, #category-text em {
+  font-style: italic;
 }
 #article-text blockquote, #category-text blockquote {
   font-family: monospace;
@@ -362,6 +369,13 @@ h6 {
 
 #page-date-info {
   color: rgba(0, 0, 0, 0.25);
+}
+
+#footer-wrapper {
+  max-width: 640px;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  margin: 128px auto 0 auto;
+  padding: 32px;
 }
 
 body {

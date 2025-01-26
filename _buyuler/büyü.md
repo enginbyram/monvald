@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Büyü
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+description: Monvald'da büyü hakkında genel detaylar
 toc: true
+date: 12-07-2023
 ---
 **Büyü**, **Enerji** veya **Aura**; bireylerin istenen sonuçları elde etmek için dünyanın enerjisini manipüle etme yeteneğine denir. Büyünün temelinde saf enerji veya saf büyü dediğimiz aura yatar.
 ## Saf enerji {#saf_enerji}
-Diyarı çevreleyen saf büyü, alemlerin uhrevi özüdür. Yaratılışın sırlarıyla dolu esrarengiz bir cazibeyle kaplıdır. Özünde ilkel kaosun zerreleri ve varoluşumuzun sözsüz ilkeleri barınırken; kendisi ise kozmosu saran anlaşılmaz gizemlerin gayet 1bir tanığı durumundadır. Diyarın her tarafını saran bu güç, zavallı bir çakıldan [cenneti](Elysium "wikilink") sarsan göksel devasamsılara kadar spektral aurasıyla alemlerin her köşesinde barınır, her nesnenin içerisinde bulunur. O, kendini sınırsız formlarda tezahür eder. O, bütün *büyü* adını verdiğimiz gücün temelidir. Evrende yer alan bütün mekanizmaların enerji gücüdür. [Kantaşı](Kantaşı "wikilink") kullanarak cansız varlıklar hareket ettirilebilir, uçması imkansız araçlar uçurulabilir. Ayrıca bazı şehirleri ışıklandıran enerjinin kaynağıdır.
+Diyarı çevreleyen saf büyü, alemlerin uhrevi özüdür. Yaratılışın sırlarıyla dolu esrarengiz bir cazibeyle kaplıdır. Özünde ilkel kaosun zerreleri ve varoluşumuzun sözsüz ilkeleri barınırken; kendisi ise kozmosu saran anlaşılmaz gizemlerin gayet 1bir tanığı durumundadır. Diyarın her tarafını saran bu güç, zavallı bir çakıldan [cenneti](Elysium "wikilink") sarsan göksel devasamsılara kadar spektral aurasıyla alemlerin her köşesinde barınır, her nesnenin içerisinde bulunur. O, kendini sınırsız formlarda tezahür eder. O, bütün *büyü* adını verdiğimiz gücün temelidir. Evrende yer alan bütün mekanizmaların enerji gücüdür. [Kantaşı](/nesneler/Kantaşı) kullanarak cansız varlıklar hareket ettirilebilir, uçması imkansız araçlar uçurulabilir. Ayrıca bazı şehirleri ışıklandıran enerjinin kaynağıdır.
 Bu enerjinin katıksız büyüklüğü, onu, fanilerin çok da kolay idrak edemeyeceği fırtınalı bir sel gibi gösterir. Onun güvenilmez doğası, evrenin temelini oluşturan gölgelenmiş gerçekleri çözümlemeyi, samimi ilişkiler kurmayı gerektirir.
 
 İdrak kabiliyetinin sınırlarında balerin edasıyla dans eden saf aura, muhteşem potansiyeline dair ipuçlarını bizden saklar. Lakin bu ipuçları, aynı zamanda onun baştan çıkarıcı ve bazen de haince tabir edebileceğimiz semender türküleridir. Fanilerin sebatleri veya azimleri her ne seviyede olursa olsun, bu enerjiye ulaşmak için atılan her adım, onların felâket tellalı olacak uçuruma yaklaştıran güvenilmez bir labirentin içine çekecektir.
