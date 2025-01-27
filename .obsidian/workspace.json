@@ -11,10 +11,14 @@
             "id": "a77ecd6c58d240d5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -160,29 +164,40 @@
   },
   "active": "a77ecd6c58d240d5",
   "lastOpenFiles": [
+    "tiles/9/343/233.png",
+    "tiles/9/343/231.png",
+    "tiles/9/343/232.png",
+    "tiles/9/343/230.png",
+    "tiles/9/343/229.png",
+    "tiles/9/343/228.png",
+    "tiles/9/343/227.png",
+    "tiles/9/343/226.png",
+    "tiles/9/343/225.png",
+    "tiles/9/343/224.png",
+    "tiles/9/343/223.png",
+    "tiles/9/343",
+    "tiles/9/342",
+    "tiles/9/341",
+    "tiles/9/340",
+    "tiles/9/339",
+    "tiles/9/338",
+    "tiles/9/337",
+    "tiles/9/336",
+    "tiles/9/334",
+    "tiles/9/335",
     "_organizasyonlar/index.md",
-    "_organizasyonlar",
     "_nesneler/index.md",
-    "_nesneler",
     "_kronoloji/tarihsel akış.md",
     "_kronoloji/index.md",
-    "_kronoloji",
     "_kozmoloji/index.md",
-    "_kozmoloji",
     "_kavramlar-ve-terimler/index.md",
-    "_kavramlar-ve-terimler",
     "_irklar/index.md",
-    "_irklar",
     "_inanclar/index.md",
-    "_inanclar",
     "_diller/index.md",
-    "_diller",
     "_cografya/overview-post.md",
     "_cografya/index.md",
-    "_cografya",
     "templates_/PAGE_TEMPLATE.md",
     "templates_/CATEGORY_TEMPLATE.md",
-    "templates_",
     "_site/README.md",
     "_sanat/index.md",
     "_canlilar/index.md",
@@ -194,11 +209,6 @@
     "_site/kronoloji/kronoloji-portal.md",
     "_site/kozmoloji/kozmoloji-portal.md",
     "_site/kavramlar-ve-terimler/kavramlar-ve-terimler-portal.md",
-    "_site/diller/diller-portal.md",
-    "_site/ırklar/ırklar-portal.md",
-    "_site/assets/img/logo_dark.png",
-    "_site/assets/img/araf_cizimi.png",
-    "_site/assets/img/boynuzlar.jpg",
-    "_site/assets/img/logo_small_dark.png"
+    "_site/diller/diller-portal.md"
   ]
 }
