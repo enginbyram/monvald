@@ -12,6 +12,6 @@
     "_layouts/",
     "_site/"
   ],
-  "livePreview": false,
+  "livePreview": true,
   "defaultViewMode": "source"
 }
