@@ -35,6 +35,10 @@ hr {
     height: 48px;
 }
 
+#mapbar {
+    justify-content: center;
+}
+
 .topbar-mark {
     height: 48px;
     width: 240px;
@@ -326,3 +330,9 @@ hr {
         text-align: left;
     }
 }
+
+/* LEAFLET MAP */
+
+#map {
+    height: 100vh;
+  }

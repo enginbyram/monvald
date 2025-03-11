@@ -86,6 +86,10 @@ hr:after {
   height: 48px;
 }
 
+#mapbar {
+  justify-content: center;
+}
+
 .topbar-mark {
   height: 48px;
   width: 240px;
@@ -343,6 +347,11 @@ hr:after {
 }
 #table-of-contents .toc-entry a {
   font-style: normal;
+}
+
+/* LEAFLET MAP */
+#map {
+  height: 100vh;
 }
 
 /*# sourceMappingURL=main.css.map */
