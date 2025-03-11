@@ -1,62 +1,328 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-
-// For storing style modules
-
-$primary-font: monospace;
-$secondary-font: "Averia Serif Libre";
-$serif-font: "Libre Baskerville";
-
-$lightmode-bg: rgb(242, 242, 242);
-$lightmode-black: rgba(0, 0, 0, .9);
-$lightmode-white: rgba(255, 254, 253,1);
-
-$darkmode-bg: rgba(0,0,0,1);
-$darkmode-light: rgba(255,255,255,0.9);
-$darkmode-black: rgba(0,0,0,1);
-
-$subtleborder: rgba(0, 0, 0, .25);
+@import "define.scss";
+@import "reset";
 
 
-$pillgreen1: #effcf1;
-$pillgreen2: #0e6e34;
+/* GENERAL */
 
-$topbar-link-size: .9rem;
-
-@font-face {
-    font-family: "Averia Serif Libre";
-    src: url("/assets/fonts/AveriaSerifLibre-Regular.ttf");
-    font-weight: 400;
-    font-style: normal;
+body {
+    background-color: $snow;
 }
-@font-face {
-    font-family: "Averia Serif Libre";
-    src: url("/assets/fonts/AveriaSerifLibre-Light.ttf");
-    font-weight: 300;
-    font-style: normal;
+
+hr {
+    font-style: monospace;
+    font-size: 14px;
+    margin: 2rem 0;
+    text-align: center;
+    border: 0;
+  
+    &:before { content: '* * * ' }
+    &:after { content: attr(data-content) ' * * *' }
 }
-@font-face {
-    font-family: "Averia Serif Libre";
-    src: url("/assets/fonts/AveriaSerifLibre-Bold.ttf");
-    font-weight: 700;
-    font-style: normal;
+
+/* TOPBAR */
+
+.topbar-wrapper {
+    background-color: $wine;
 }
-@font-face {
-    font-family: "Averia Serif Libre";
-    src: url("/assets/fonts/AveriaSerifLibre-Italic.ttf");
-    font-weight: 400;
+
+.topbar-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50em;
+    width: 80%;
+    margin: 0 auto;
+    height: 48px;
+}
+
+.topbar-mark {
+    height: 48px;
+    width: 240px;
+}
+
+.topbar-links-ul {
+    display: flex;
+
+    color: $snow;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: bold;
+    
+    li {
+        margin: 0 .33rem;
+        position: relative; // Needed for absolute positioning of dropdown
+
+        a {
+            color: $snow;
+            text-decoration: none;
+        }
+
+        &.dropdown-parent {
+            &:hover .dropdown {
+                display: block;
+            }
+        }
+
+        &.dropdown-tree-parent {
+            &:focus-within .dropdown-tree {
+                display: block;
+                &:focus-within .dropdown-right {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background-color: $wine; // Use a suitable background color
+    padding: 0.5rem 0;
+    list-style: none;
+    width: 180px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+
+    li {
+        padding: 0.15rem 0;
+        white-space: nowrap;
+
+        &:hover {
+            background-color: darken($wine, 5%);
+        }
+    }
+}
+
+.dropdown-tree {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background-color: $wine; // Use a suitable background color
+    padding: 0.5rem 0;
+    list-style: none;
+    width: 180px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+
+    li {
+        padding: 0.15rem 0;
+        white-space: nowrap;
+
+        &:hover {
+            background-color: darken($wine, 5%);
+        }
+    }
+}
+
+.dropdown-right {
+    display: none;
+    position: absolute;
+    top: -14%;
+    left: 98%;
+    background-color: #4C0B0D;
+    padding: 0.5rem 0;
+    list-style: none;
+    width: 180px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+
+    li {
+        padding: 0.15rem 0;
+        white-space: nowrap;
+
+        &:focus-within {
+            background-color: darken($wine, 5%);
+        }
+    }
+}
+
+.responsive-menu {
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+    #pc-links {display: none;}
+    .responsive-menu {display: block;}
+
+    .topbar-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        max-width: 50em;
+        width: 80%;
+        margin: 0 auto;
+        height: 48px;
+    }
+}
+
+
+/* ARTICLE AREA */
+
+#page-info {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: monospace;
+    font-size: 12px;
+
+    a {
+        text-decoration: none;
+        color: $wine;
+    }
+
+    #page-date-info {
+        color: $shadow-text;
+    }
+
+
+}
+
+
+.article-body {
+    font-family: "Times New Roman", serif;
+    margin: 2.5em auto;
+    max-width: 50em;
+    width: 80%;
+}
+
+#article-text a {
     font-style: italic;
+    text-decoration: none;
+    color: $link-new;
 }
-@font-face {
-    font-family: "Averia Serif Libre";
-    src: url("/assets/fonts/AveriaSerifLibre-LightItalic.ttf");
-    font-weight: 300;
-    font-style: italic;
+
+#article-text p {
+    text-align: justify;
+    line-height: 1.2em;
+    text-indent: 1.5em;
+    margin: 0.3em 0;
+
+    font-size: $p-size;
 }
-@font-face {
-    font-family: "Averia Serif Libre";
-    src: url("/assets/fonts/AveriaSerifLibre-BoldItalic.ttf");
-    font-weight: 700;
+
+#page-title {
+    font-size: $p-h1;
+    font-weight: $p-h1-w;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -.025rem;
+
+    margin: 1.25rem 0;
+}
+
+#article-text h2 {
+    font-size: $p-h2;
+    font-weight: $p-h2-w;
+    letter-spacing: -.025rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 1.25rem 0 .25rem 0;
+}
+
+#article-text h3 {
+    font-size: $p-h3;
+    font-weight: $p-h3-w;
     font-style: italic;
+    letter-spacing: -.025rem;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 1.25rem 0 .55rem 0;
+}
+
+/* CATEGORY PAGES */
+
+#category-text h3 {
+    font-size: 80%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5em;
+    text-indent: 0;
+    margin: 1em 0;
+
+    &:after { content: attr(data-content) ' :' }
+}
+
+#category-text h2 {
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    text-indent: 0;
+    
+    margin: 1em 0;
+    padding-top: 4em;
+
+    &:after { content: attr(data-content) ' :' }
+
+}
+
+.cat-table {
+    display: flex;
+    justify-content: center;
+
+    table {
+        margin: 1em auto;
+        line-height: 1.2;
+
+        .td-l {
+            text-transform: uppercase;
+            font-size: 80%;
+            letter-spacing: 0.05em;
+
+            vertical-align: bottom;
+
+            text-indent: -3.5em;
+            padding-left: 3.5em;
+            text-align: left;
+        }
+
+        .td-r {
+            vertical-align: bottom;
+            padding-left: 1em;
+            width: 3em;
+            text-align: right;
+        }
+    }
 }
 
 
+/* TABLE OF CONTENTS */
+
+#table-of-contents {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    
+    #toc {
+        margin: 3em auto;
+        line-height: 1.2;
+    }
+
+    h5 {
+        display: none;
+    }
+
+    li.toc-entry.toc-h2 {
+        list-style-type:decimal;
+    }
+
+    .toc-entry {
+        ul {margin: 0.55em 0;}
+        li {margin: 0.33em 0;}
+        a {font-style: normal;}
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+
+        vertical-align: bottom;
+
+        padding-left: 1em;
+        text-align: left;
+    }
+}

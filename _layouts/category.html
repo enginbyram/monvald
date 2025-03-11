@@ -3,30 +3,76 @@
   {% include header.html %}
   <body>
     <main class="main-wrapper">
+        {% include topbar.html %}
         <div class="focus-area">
-            {% include topbar.html %}
             <article class="article-body">
               <div id="category-text">
                 <div id="page-info">
                   {% include back_link.html %}
                 </div>
                 <div class="inner-cat-body">
-                  <h4 id="cat-texts-main-h">{{page.title}}</h4>
+                  <h3 id="cat-texts-main-h">Alt kategorileri</h3>
                   <div id="cat-texts">
+
+                    
+                    <div class="cat-table">
+                      {% assign current_collection = site[page.collection] %}
+                      {% assign all_tags = "" | split: "," %}
+                    
+                      <!-- Collect all unique tags within the current collection -->
+                      {% for page in current_collection %}
+                        {% for tag in page.tags %}
+                          {% unless all_tags contains tag %}
+                            {% assign all_tags = all_tags | push: tag %}
+                          {% endunless %}
+                        {% endfor %}
+                      {% endfor %}
+                    
+                      <!-- Display all categorized pages within the current collection -->
+                      <table>
+                        <tbody>
+                          {% for tag in all_tags %}
+                          
+                            <!-- Filter pages inside the current collection with the specific tag -->
+                            {% assign tag_pages = current_collection | where_exp: "page", "page.tags contains tag" %}
+                            {% if tag_pages.size > 0 %}
+                              <tr>
+                                <td class="td-l">
+                                  <a href="/{{ page.collection }}/{{ tag | slugify }}/">{{ tag }}</a>
+                                </td>
+                                <td class="td-r">
+                                  <div>
+                                    {{ tag_pages.size }} mkl.
+                                  </div>
+                                </td>
+                              </tr>
+                            {% endif %}
+                          {% endfor %}
+                        </tbody>
+                      </table>
+                    </div>
+                    
+                    
+                    <h1 id="page-title">{{page.title}}</h1>
                     <p>{{content}}</p>
                   </div>
                 </div>
-                <h2>{{ page.title }}</h2>
-                <ul id="cat-list">
-                  {% for page in site[page.collection] %}
-                    {% if page.name != "index.md" %}
-                    <ul>
-                      <li><a href="{{ page.url }}"><span id="cat-page-title">{{page.title}}</span> : {{page.description}}</a></li>
-                    </ul>
-                     
-                    {% endif %}
-                  {% endfor %}
-                </ul>
+                <h2>Makaleler</h2>
+                  <div class="cat-table">
+                    <table>
+                      <tbody>
+                        {% for page in site[page.collection] %}
+                        {% if page.name != "index.md" %}
+                          {% if page.layout != "tag" %}
+                            <tr>
+                              <td class="td-l"><a href="{{ page.url }}"><span id="cat-page-title">{{page.title}}</span></a> : {{page.description}}</td>
+                            </tr>
+                          {% endif %}
+                        {% endif %}
+                      {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
               </div>
             </article>
         </div>
@@ -34,3 +80,5 @@
     {% include footer.html %}
   </body>
 </html>
+
+

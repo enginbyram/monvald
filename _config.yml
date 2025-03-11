@@ -28,6 +28,13 @@ collections:
   sanat:
     output: true
 
+  düzlemler:
+    output: true
+    permalink: /kozmoloji/:name
+  tarih:
+    output: true
+    permalink: /kronoloji/:name
+
 plugins:
   - jekyll-toc
 
