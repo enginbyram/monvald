@@ -42,6 +42,84 @@ collections:
     output: true
     permalink: /kronoloji/:name
 
+  bolgeler:
+    output: true
+    permalink: /cografya/:name
+  ormanlar:
+    output: true
+    permalink: /cografya/:name
+  su-kutleleri:
+    output: true
+    permalink: /cografya/:name
+  yerlesim-yerleri:
+    output: true
+    permalink: /cografya/:name
+  yersekilleri:
+    output: true
+    permalink: /cografya/:name
+
+  mertebeler-ve-sınıflar:
+    output: true
+    permalink: /kavramlar-ve-terimler/:name
+
+  haneler:
+    output: true
+    permalink: /organizasyonlar/:name
+  loncalar-ve-toplumlar:
+    output: true
+    permalink: /organizasyonlar/:name
+  maceraci-partileri:
+    output: true
+    permalink: /organizasyonlar/:name
+  sirketler:
+    output: true
+    permalink: /organizasyonlar/:name
+  ulkeler:
+    output: true
+    permalink: /organizasyonlar/:name
+
+
+  gida:
+    output: true
+    permalink: /nesneler/:name
+  esyalar:
+    output: true
+    permalink: /nesneler/:name
+  materyaller:
+    output: true
+    permalink: /nesneler/:name
+
+  bitki-ve-mantarlar:
+    output: true
+    permalink: /canlilar/:name
+  canavarlar:
+    output: true
+    permalink: /canlilar/:name
+  ejderhalar:
+    output: true
+    permalink: /canlilar/:name
+  goblinoidler:
+    output: true
+    permalink: /canlilar/:name
+  goksel-varliklar:
+    output: true
+    permalink: /canlilar/:name
+  hayvanlar:
+    output: true
+    permalink: /canlilar/:name
+  hortlaklar:
+    output: true
+    permalink: /canlilar/:name
+  periler:
+    output: true
+    permalink: /canlilar/:name
+  iblisler:
+    output: true
+    permalink: /canlilar/:name
+  humanoidler:
+    output: true
+    permalink: /canlilar/:name
+
 plugins:
   - jekyll-toc
 

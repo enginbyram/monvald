@@ -5,17 +5,7 @@ description: Monvald tarihinin kronolojik bir akışı
 toc: true
 date: 2025-01-26
 
-infobox-type: "cografya"
-country-date: "2020'de kuruldu"
-aliases: ["Dan", "Dun", "Don"]
-img: "/assets/img/armoria.png"
-languages: ["Ortak Lisan", "Kara Lisan", "Elfçe"]
-popsize: "2.554.223"
-type: "Orman"
-region: "Zartoto"
-cap: "Noloro"
-export: ["Altın", "Cevher", "Taş"]
-curr: ["5g='kron'", "100s='manat'", "500c='nurn'"]
+infobox-type: ""
 ---
 Bu diyarda; zamansız efsanelerle iç içe geçen sihir, çatışma ve sakinleriyle harmanlanmış bir tarih vardır. Kozmosu şekillendiren ilkel güçlerden büyük medeniyetlerin yükselişine ve çöküşüne kadar bütün bu ansiklopedi eski çağların derinliklerine inerek hayret verici dünyanın özünü şekillendiren zaferleri ve trajedileri gün yüzüne çıkarır.
 
