@@ -79,6 +79,24 @@ i, em {
   font-style: italic;
 }
 
+.pagetable {
+  margin: 1.5em auto;
+  border: 1px solid #a2a9b1;
+  background-color: #F6F4EE;
+  font-size: 88%;
+  font-family: sans-serif;
+}
+.pagetable th {
+  background-color: #FFDEAD;
+  padding: 8px;
+  border: 1px solid #a2a9b1;
+  font-weight: bold;
+}
+.pagetable td {
+  border: 1px solid #a2a9b1;
+  padding: 5px;
+}
+
 /* TOPBAR */
 .topbar-wrapper {
   background-color: #4C0B0D;
@@ -254,10 +272,10 @@ i, em {
   margin: 1.25rem 0 0.55rem 0;
 }
 
-#article-text ul {
+#article-text, #cat-texts ul {
   margin: 1.5em 0 1em 2em;
 }
-#article-text ul li {
+#article-text li, #cat-texts ul li {
   padding: 5px 0;
   list-style: disc;
   margin-bottom: 0.1em;

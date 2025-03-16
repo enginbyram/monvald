@@ -27,6 +27,27 @@ i, em {
     font-style: italic;
 }
 
+.pagetable {
+    margin:1.5em auto;
+    border:$infobox-border;
+    background-color: #F6F4EE;
+    font-size: 88%;
+
+    font-family: $sans-serif;
+
+    th {
+        background-color: #FFDEAD;
+        padding: 8px;
+        border:$infobox-border;
+        font-weight: bold;
+    }
+
+    td {
+        border:$infobox-border;
+        padding: 5px;
+    }
+}
+
 /* TOPBAR */
 
 .topbar-wrapper {
@@ -226,7 +247,7 @@ i, em {
     margin: 1.25rem 0 .55rem 0;
 }
 
-#article-text ul {
+#article-text, #cat-texts ul {
     margin: 1.5em 0 1em 2em;
 
   li {
