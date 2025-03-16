@@ -3,7 +3,7 @@ layout: page
 title: Monvald kronolojisi
 description: Monvald tarihinin kronolojik bir akışı
 toc: true
-date: 26-01-2025
+date: 2025-01-26
 ---
 Bu diyarda; zamansız efsanelerle iç içe geçen sihir, çatışma ve sakinleriyle harmanlanmış bir tarih vardır. Kozmosu şekillendiren ilkel güçlerden büyük medeniyetlerin yükselişine ve çöküşüne kadar bütün bu ansiklopedi eski çağların derinliklerine inerek hayret verici dünyanın özünü şekillendiren zaferleri ve trajedileri gün yüzüne çıkarır.
 

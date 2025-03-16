@@ -409,6 +409,88 @@ i, em {
   }
 
 
+/* INFOBOX STYLES */
+
+.infobox{
+    font-family: $sans-serif;
+    font-size: 88%;
+    line-height: 1.5em;
+    text-align: left;
+    
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+
+    width: 22em;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    background-color: #f8f9fa;
+    
+    float: right;
+    clear: right;
+}
+
+.infobox.cografya {
+    .ib-above-h {
+        padding: 0.4em 0.6em 0.4em 0.6em;
+        font-weight: bold;
+        text-align: center;
+        
+        line-height: 1.2em;
+        font-size: 1.55em;
+    }
+
+    .ib-mid-h {
+        font-weight: bold;
+        text-align: center;
+        
+        line-height: 1.2em;
+        font-size: 1em;
+
+        padding: 0.2em 0.4em;
+
+        border: 1px solid #A0522D;
+        background-color: #FFDEAD;
+    }
+
+    * {
+        border-top: 1px solid #a2a9b1;
+    }
+
+    img {
+        max-width: 250px;
+        margin: 10px;
+        height: auto;
+        
+        border-top: none;
+    }
+
+    .ib-d-label {
+        font-weight: bold;
+        padding: 4px 10px;
+    }
+    
+    .ib-data {
+        padding: 5px 0;
+
+        li {
+            border-top: none;
+            list-style: none;
+        }
+    }
+
+    .ib-country-date {
+        text-align: center;
+        font-size: 77%;
+    }
+
+    .ib-img {
+        text-align: center;
+    }
+
+    .ib-map {
+        text-align: center;
+    }
+}
 
 /* MEDIA QUERIES */
 
@@ -425,6 +507,12 @@ i, em {
         width: 80%;
         margin: 0 auto;
         height: 48px;
+    }
+
+    .infobox {
+        float:none;
+        clear:none;
+        margin:auto;
     }
 }
 

@@ -22,6 +22,7 @@
                       <h5>{{page.title}}</h5>
                       {{ content | toc_only }}
                     </div>
+                    {% include infobox.html %}
                     {{content | inject_anchors }}
                   </div>
                 </div>

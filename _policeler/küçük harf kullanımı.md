@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Küçük harf kullanımı
-date: 16-03-2025
+date: 2025-03-16
 description: içerisinde büyük/küçük harfin nasıl kullanılacağına dair bir poliçedir
 ---
 

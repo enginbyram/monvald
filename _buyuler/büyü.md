@@ -3,7 +3,7 @@ layout: page
 title: Büyü
 description: Monvald'da büyü hakkında genel detaylar
 toc: true
-date: 12-07-2023
+date: 2023-07-12
 ---
 **Büyü**, **Enerji** veya **Aura**; bireylerin istenen sonuçları elde etmek için dünyanın enerjisini manipüle etme yeteneğine denir. Büyünün temelinde saf enerji veya saf büyü dediğimiz aura yatar.
 ## Saf enerji

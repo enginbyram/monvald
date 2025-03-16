@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Savaşlar
-date: 16-03-2025
+date: 2025-03-16
 description: Savaşlar geçmiş zaman kullanılarak yazılmalıdır
 ---
 

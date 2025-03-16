@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "48def54e1779388a",
+        "id": "f7276db7340ace47",
         "type": "tabs",
         "children": [
           {
-            "id": "e3c8a5b8cb5d0a96",
+            "id": "3679b9bef09fa2a8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -159,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3c8a5b8cb5d0a96",
+  "active": "3679b9bef09fa2a8",
   "lastOpenFiles": [
     "_buyuler/büyü.md",
     "index.md",

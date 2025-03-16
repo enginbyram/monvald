@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Üç cümle kuralı
-date: 16-03-2025
+date: 2025-03-16
 description:  Eğer söz konusu makale hakkında üçten fazla cümle yazılamaz ise ne yapılmalı?
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gemiş zaman grameri
-date: 16-03-2025
+date: 2025-03-16
 description: Yazılarda geçmiş zamanın ve özellikle anlatı zamanının kullanımını irdeler
 ---
 

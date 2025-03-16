@@ -32,6 +32,8 @@ collections:
     output: true
   policeler:
     output: true
+  onemli-kisiler:
+    output: true
 
   düzlemler:
     output: true
