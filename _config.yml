@@ -30,6 +30,8 @@ collections:
     output: true
   sanat:
     output: true
+  policeler:
+    output: true
 
   düzlemler:
     output: true

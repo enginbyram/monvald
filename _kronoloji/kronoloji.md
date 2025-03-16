@@ -6,6 +6,7 @@ toc: true
 date: 26-01-2025
 ---
 Bu diyarda; zamansız efsanelerle iç içe geçen sihir, çatışma ve sakinleriyle harmanlanmış bir tarih vardır. Kozmosu şekillendiren ilkel güçlerden büyük medeniyetlerin yükselişine ve çöküşüne kadar bütün bu ansiklopedi eski çağların derinliklerine inerek hayret verici dünyanın özünü şekillendiren zaferleri ve trajedileri gün yüzüne çıkarır.
+
 ## İlkel tarih ve mitleri
 **İlkel tarih**, ya da diğer adlarıyla **Zaman Öncesi**, **Doğum Evresi** veya **Prehistorik Çağ** sırasında bilinen bir tarih yoktur, sadece hurafeler ve sagalarla bilgi edinilebilir. Evrenin doğuşu, bilinen tanrıların yaratılışı ve materyal evrenin olgunlaşma süreci bu dönemde gerçekleşmiştir. Bu zaman takvimlerde yer almaz.
 
