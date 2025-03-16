@@ -71,11 +71,11 @@ hr:after {
   content: attr(data-content) " * * *";
 }
 
-b {
+b, strong {
   font-weight: 700;
 }
 
-i {
+i, em {
   font-style: italic;
 }
 
@@ -252,6 +252,15 @@ i {
   text-align: center;
   line-height: 1.5em;
   margin: 1.25rem 0 0.55rem 0;
+}
+
+#article-text ul {
+  margin: 1.5em 0 1em 2em;
+}
+#article-text ul li {
+  padding: 5px 0;
+  list-style: disc;
+  margin-bottom: 0.1em;
 }
 
 /* CATEGORY PAGES */
