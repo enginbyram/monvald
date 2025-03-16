@@ -22,7 +22,8 @@
                       <h5>{{page.title}}</h5>
                       {{ content | toc_only }}
                     </div>
-                    {% include infobox.html %}
+                    {% assign infobox_file = 'infobox' | append: page.infobox-type | append: '.html' %}
+                    {% include {{ infobox_file }} %}
                     {{content | inject_anchors }}
                   </div>
                 </div>
