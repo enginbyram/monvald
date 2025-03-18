@@ -37,7 +37,7 @@ collections:
 
   duzlemler:
     output: true
-    permalink: /kozmoloji/:name
+    permalink: /kozmoloji/:name/
   tarih:
     output: true
     permalink: /kronoloji/:name
