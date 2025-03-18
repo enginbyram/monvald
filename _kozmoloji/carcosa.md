@@ -4,7 +4,7 @@ title: Carcosa
 description: Şehir olmayan bir şehir, şeytanların ini
 toc: true
 date: 2025-03-10
-tags: ["Düzlemler"]
+tags: ["Duzlemler"]
 ---
 
 Beneath a sickly, star-choked sky, Carcosa looms—a city that is no city, sprawling in labyrinthine tangles of alabaster towers and obsidian spires that defy the laws of man and gods alike. The air smells of rot and roses, and every shadow flickers as though alive. Here, time falters, stumbling forward one moment and sliding backward the next, an eternal danse macabre beneath the black stars that gaze down like pitiless, lidless eyes.

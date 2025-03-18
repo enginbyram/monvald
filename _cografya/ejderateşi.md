@@ -4,7 +4,7 @@ title: Ejderateşi
 description: "Ejderateşi Cemiyeti'nin merkezi" 
 toc: true
 date: 2025-03-16
-tags: ["Yerleşim Yerleri"]
+tags: ["Yerlesim Yerleri"]
 
 infobox-type: "cografya"
 country-date: "MÖ 260"
